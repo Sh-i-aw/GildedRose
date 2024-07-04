@@ -44,7 +44,7 @@ class Shop {
     let pattern = /conjured/i;
     let result = currentItem.name.match(pattern);
 
-    return result.length > 0;
+    return result !== null;
   }
 }
 
